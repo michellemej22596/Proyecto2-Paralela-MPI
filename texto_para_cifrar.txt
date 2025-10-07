@@ -1,0 +1,37 @@
+Universidad del Valle de Guatemala - Computación Paralela y Distribuida
+
+En el mundo de la criptografía moderna, el algoritmo DES (Data Encryption Standard) 
+representa un hito histórico fundamental. Desarrollado en la década de 1970, este 
+sistema de cifrado simétrico utiliza bloques de 64 bits y una clave de 56 bits para 
+transformar información legible en datos completamente indescifrables.
+
+El proceso de cifrado mediante DES involucra múltiples rondas de permutaciones y 
+sustituciones complejas. Cada bloque de texto plano atraviesa 16 iteraciones donde 
+se aplican funciones matemáticas sofisticadas que mezclan los bits de manera 
+aparentemente aleatoria. La seguridad del sistema depende completamente de mantener 
+la clave privada en secreto absoluto.
+
+PALABRA_CLAVE_XYLOPHONE_2025_PROYECTO_MPI
+
+La paralelización mediante MPI (Message Passing Interface) permite distribuir el 
+trabajo de fuerza bruta entre múltiples procesadores. Cada nodo computacional 
+explora un segmento específico del espacio de claves posibles, comunicándose 
+eficientemente con los demás procesos. Esta estrategia reduce dramáticamente el 
+tiempo necesario para encontrar la clave correcta.
+
+El speedup obtenido depende críticamente de varios factores: el número de procesos 
+utilizados, la estrategia de particionamiento del espacio de búsqueda, y 
+curiosamente, la ubicación de la clave dentro del rango explorado. Una distribución 
+round-robin puede ofrecer resultados más consistentes que una partición por bloques 
+contiguos.
+
+Los sistemas de memoria distribuida como MPI destacan por su escalabilidad 
+excepcional. A diferencia de los modelos de memoria compartida, pueden interconectar 
+máquinas físicamente separadas en una red local, creando clusters computacionales 
+heterogéneos de gran potencia. Esta característica los convierte en la opción 
+preferida para problemas que requieren procesamiento masivamente paralelo.
+
+La criptografía y la computación paralela se entrelazan perfectamente en este 
+proyecto académico, demostrando cómo las técnicas modernas de programación pueden 
+aplicarse tanto para proteger información como para vulnerar sistemas débiles 
+mediante análisis exhaustivo de todas las posibilidades.
