@@ -1,1 +1,1 @@
-Este es un mensaje de prueba que contiene la frase_clave secreta.
+Este es un mensaje de prueba con la frase_clave incluida.
